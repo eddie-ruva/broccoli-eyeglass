@@ -23,7 +23,7 @@ var options = {
   cssDir: "assets/css",
   fullException: false
 }
-var outputTree = compileSass(inputTrees, options);
+var outputTree = new compileSass(inputTrees, options);
 ```
 
 * **`inputTrees`**: An array of trees that act as the include paths for
